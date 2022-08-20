@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+
+
+nav.header {
+  background-color: #001951;
+  font-family:  'Libre Baskerville', cursive;
+  font-size:2em;
+  font-weight:bold;
+  line-height:2em;
+  text-align:right;
+  padding:0 1em 0 0;
+  margin-top:30px;
+}
+
+nav a{
+  color: #afc7ff ;
+  text-decoration:none;
+}
+
+nav a:hover{
+  Background-color:#afc7ff;
+  color:#001951;
+  border-radius:5px;
+  box-shadow:5px 5px 5px black;
+  padding:5px;
+}
+
+nav li{
+ display:inline-block;
+}
+
+#to-top{
+  color:#afc7ff;
+}
+#profile-pic{
+  position:absolute;
+  top:0;
+  padding:10px;
+  width:253px;
+  }
+
+h1,h2,h3,h4,h5,h6 {
+  color: #001951 ;
+  font-family: 'Kaushan Script', cursive;
+  line-height:1em;
+  margin-bottom:0.1em;
+}
+
+p, ul {
+ color:#001951;
+  font-family:  'Libre Baskerville', cursive;
+}
+
+.light-words{
+ color:#afc7ff; 
+}
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  }
+
+.row-even, .row-odd {
+  padding:1.1em;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items:center;
+  text-align:left;
+  }
+#small-text{
+  font-size:0.85em;
+}
+
+.row-odd {
+ background-color: #afc7ff ;
+  }
+
+.row-even {
+ background-color: #A998E2; 
+}
+
+.row-last{
+ text-align:center; 
+  background-color:#FFF4F4;
+  padding:1em;
+}
+
+.left-col, .right-col{
+  width:45%;
+  flex: 1 0 15em;
+  padding:1.3em;
+  }
+
+div.left-col img, div.right-col img{
+
+  
+}
+
+.full-width{
+  width:100%;
+}
+
+.resume{
+ border-style:solid; 
+ border-color:#A998E2;
+ border-width:4px;
+  padding:1em;
+  margin:2px;
+}
+
+img{
+ max-width:100%;
+}
+
+.centered {
+ text-align:center; 
+}
+
+.floater{
+ float:right; 
+}
+
+.social{
+   width:50px;  
+}
+
+footer{
+  background-color:#001951;
+  font-family:  'Libre Baskerville', cursive;
+  display:flex;
+  padding:1em;
+  justify-content:space-between;
+  
+}
+
+#content {
+  width:85%;
+  margin: 0 auto;
+  }
+#resume-content {
+  width:80%;
+  margin: 0 auto;
+}
+
+.subpage-header{
+ text-align:center;
+  font-size:3em;
+  color:#001951;
+}
+
+.subpage-subheader{
+ color:#001951;
+ text-align:center;
+  margin-bottom:10px;
+}
+.right-side{
+ text-align:right;
+  
+}
+
+#borders{
+width:75%;
+}
+
+body{
+  background-color:#FFF4F4;
+}
+
+
+#FFF4F4 cream
+#afc7ff light blue
+#001951 navy
+#A998E2 lilac
+#764396 purple
